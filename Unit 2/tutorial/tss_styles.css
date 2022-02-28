@@ -92,6 +92,7 @@
 
    nav > ul {
       line-height: 2em;
+      list-style-type: none;
    }
 
 
@@ -99,11 +100,30 @@
 
 /* List Styles */
 
+   article.syllabus ol{
+      list-style-type: upper-roman;
+   }
+
+   article.syllabus ol ol {
+      list-style-type: upper-alpha;
+   }
+
+   article.syllabus ol ol ol {list-style-type: decimal;
+   }
+
 
 
 
 
 /* Footer Styles */
+body > footer address {
+   background-color: rgb(222, 128, 60);
+   color:white;
+   color: rgba(255, 128, 60,);
+   font: normal small-caps bold 0.9em/3em
+      Quicksand, verdana, Geneva, sans-serif;
+   text-align: center;
+}
 
 
 
