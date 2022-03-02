@@ -15,9 +15,12 @@
 @charset "utf-8";
 
 @font-face {
-   font-family: face;
+   font-family: Champagne;
    src: url('cac_champagne.woff') format('woff'),
    url('cac_champagne.ttf') format('truetype');
+   font-family: Grunge;
+   src: url('1942.woff') format('woff'),
+   url('1942.ttf') format('truetype');
 }
 
 
