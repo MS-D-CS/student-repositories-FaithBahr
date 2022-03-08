@@ -151,3 +151,14 @@
 
 /* Description List Styles */
 
+   dt{
+      color: hsla(0,0%,0%,0.4);
+      font-weight: bold;
+      font-size: 1.3em;
+   }
+
+   dd{ 
+      font-size: 1.3em;
+      margin-left: 0px;
+      margin-bottom: 10px;
+   }
