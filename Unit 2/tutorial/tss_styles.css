@@ -135,11 +135,11 @@
       list-style-image: url(runicon.png);
    }
 
-   article#about_tss ul li :nth-of-type(2) {
+   article#about_tss ul li:nth-of-type(2) {
       list-style-image: url(bikeicon.png);
    }
 
-   article#about_tss ul li :last-of-type {
+   article#about_tss ul li:last-of-type {
       list-style-image: url(swimicon.png);
    }
 
