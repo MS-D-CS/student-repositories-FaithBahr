@@ -105,6 +105,12 @@
       
    }
 
+   footer::after {
+      clear:both;
+      content:"";
+      display: table;
+   }
+
    footer > nav.verticalNavigation {
       float: left;
       width: 22%;
