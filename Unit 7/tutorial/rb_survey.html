@@ -19,6 +19,8 @@
    <title>Red Ball Survey</title>
    <link href="rb_reset.css" rel="stylesheet" />
    <link href="rb_styles.css" rel="stylesheet" />
+   <link href="rb_forms.css" rel="stylesheet" />
+   <script src="rb_formsubmit.js"></script>
 
 </head>
 
@@ -51,8 +53,29 @@
          Pizza will not share your contact information with third 
          parties, <em>ever</em>. </p>
       <p>Required values are marked by an asterisk (*)</p>
-      <form id="survey" action="http://www.example.com/redball/survey" method="post">
 
+      <form id="survey" action="http://www.example.com/redball/survey" method="post">
+         <fieldset id="custInfo">
+            <legend>Customer Information</legend>
+            <label for="name">Name*</label>
+            <input name="custName" id="name" type="text" /> 
+            Street address
+            <input name="custStreet" id="street" type="text" /> 
+            City 
+            <input name="custCity" id="city" type="text" />
+            State
+            <input name="custState" id="state" type="text" /> 
+            Postal code 
+            <input name="custZip" id="zip" type="text" />
+            Phone number 
+            <input name="custPhone" id="phone" type="tel" /> 
+            E-mail*
+            <input name="custEmail" id="mail" type="email" /> 
+         </fieldset> 
+         
+         <fieldset id=”expInfo”> 
+            <legend>Share Your Experience at Red Ball Pizza</legend>
+         </fieldset> 
       </form>
 
      
